@@ -25,7 +25,7 @@ jobs:
             [ -z "$url" ] && continue
             if [ -s "$dest" ]; then echo "skip  $dest"; continue; fi
             mkdir -p "$(dirname "$dest")"
-            if curl -fsSL --retry 3 -A "$UA" -e "https://www.parleecycles.com/" -H "Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8" -o "$dest" "$url"; then echo "ok    $dest $(stat -c%s "$dest") bytes"; else echo "FAIL  $url"; fail=1; fi
+            if curl -fsSL --retry 3 -A "$UA" -e "https://www.parleecycles.com/" -H "Accept: image/jpeg,image/png;q=0.9,*/*;q=0.5" -o "$dest" "$url"; then echo "ok    $dest $(stat -c%s "$dest") bytes"; else echo "FAIL  $url"; fail=1; fi
           done < .github/image-manifest.txt
           exit $fail
       - name: Commit

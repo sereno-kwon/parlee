@@ -5,7 +5,6 @@
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <image:image><image:loc>https://parleecycles.co.kr/images/anniversary/01.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/anniversary/02.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/anniversary/03.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/anniversary/04.jpg</image:loc></image:image>
@@ -14,6 +13,7 @@
     <image:image><image:loc>https://parleecycles.co.kr/images/bespoke/01.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/bespoke/02.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/bespoke/03.webp</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/bespoke/04.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/brand/01.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/brand/02.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/brand/03.jpg</image:loc></image:image>
@@ -21,8 +21,8 @@
     <image:image><image:loc>https://parleecycles.co.kr/images/brand/05.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/brand/06.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/brand/07.jpg</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/brand/08.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/brand/09.jpg</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/brand/10.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/gt/01.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/gt/02.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/gt/03.jpg</image:loc></image:image>
@@ -34,23 +34,23 @@
     <image:image><image:loc>https://parleecycles.co.kr/images/hero/02.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/hero/03.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/hero/04.jpg</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/history/01.webp</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/history/02.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/og.jpg</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/01.png</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/01.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/ouray/02.jpg</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/03.png</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/03.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/ouray/04.jpg</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/05.png</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/05.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/ouray/06.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/ouray/07.jpg</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/08.png</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/09.png</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-duraace.png</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-force.png</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-frameset.png</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-red.png</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-rival.png</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-ultegra.png</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/08.jpg</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/09.jpg</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-duraace.jpg</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-force.jpg</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-frameset.jpg</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-red.jpg</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-rival.jpg</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/ouray/build-ultegra.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/paint/01.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/paint/02.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/paint/03.jpg</image:loc></image:image>
@@ -77,7 +77,7 @@
     <image:image><image:loc>https://parleecycles.co.kr/images/paint/colors/20.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/paint/package-dream.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/paint/package-duo.jpg</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/paint/package-plus.png</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/paint/package-plus.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/process/01.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/process/02.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/process/03.jpg</image:loc></image:image>
@@ -91,7 +91,7 @@
     <image:image><image:loc>https://parleecycles.co.kr/images/taos/05.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/taos/06.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/taos/build-force.jpg</image:loc></image:image>
-    <image:image><image:loc>https://parleecycles.co.kr/images/taos/build-frameset.png</image:loc></image:image>
+    <image:image><image:loc>https://parleecycles.co.kr/images/taos/build-frameset.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/taos/build-fst.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/taos/build-grx.jpg</image:loc></image:image>
     <image:image><image:loc>https://parleecycles.co.kr/images/taos/build-red.jpg</image:loc></image:image>
