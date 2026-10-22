@@ -24,7 +24,7 @@ parleecycles.co.kr 원페이지 정적 사이트 (GitHub Pages). tsubasabicycles
 ## 구글 애널리틱스 (GA4)
 루비컴퍼니 브랜드 사이트(츠바사·바스티온·팔리·크러스트) 공통 코드입니다.
 
-- 측정 ID는 `index.src.html` 맨 위의 `var GA_ID = '';` 한 곳에 넣습니다. 비어 있으면 GA를 불러오지 않습니다. 바꾼 뒤 `python3 tools/build.py`로 세 언어 페이지를 다시 만듭니다.
+- 측정 ID가 있는 사이트는 head 맨 위에 구글 태그(gtag.js) 원본 코드를 그대로 넣고, 같은 ID를 `var GA_ID`에도 적습니다(공통 이벤트 스크립트가 사용). ID가 없는 사이트는 `var GA_ID = '';` 자리만 비워 두고 GA를 불러오지 않습니다.
 - 페이지 언어가 콘텐츠 그룹(`content_group`: ko, en, ja)으로 기록됩니다.
 - 이벤트
   - `section_view` 섹션 도달 (section_name), 섹션별 1회
