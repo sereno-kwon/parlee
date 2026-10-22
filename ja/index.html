@@ -3,6 +3,21 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8"/>
+<!-- Google Analytics 4 (shared across Rubi Company brand sites)
+     Put the measurement ID in GA_ID. Empty = GA is not loaded. -->
+<script>
+  var GA_ID = '';
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  if (/^G-[A-Z0-9]{4,}$/.test(GA_ID)) {
+    var gs = document.createElement('script');
+    gs.async = true;
+    gs.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(gs);
+    gtag('js', new Date());
+    gtag('config', GA_ID, { content_group: document.documentElement.lang || 'ko' });
+  }
+</script>
 <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
 <title>パーリー・サイクルズ コリア | Parlee Cycles</title>
 <meta content="パーリー・サイクルズ（Parlee Cycles）は、2000年にボブ・パーリーが米国マサチューセッツ州で創業したカーボンファイバー自転車ブランドです。オールロードのOuray、グラベルのTaos、ビスポークのZ-Zero GT、そしてパーリー ペイントラボを、ソウルのルビーワークショップでご覧いただけます。" name="description"/>
@@ -442,7 +457,7 @@ footer .copy{margin-top:28px;font-size:12px}
 <button aria-label="メニューを開く" class="burger" id="burger"><span></span><span></span><span></span></button>
 <a aria-label="PARLEE ホーム" class="logo" href="#top"><img alt="PARLEE Cycles" src="../images/logo-white.png"/></a>
 <div class="tools">
-<a class="cta-top" href="https://rubiworkshop.com/consulting" rel="noopener" target="_blank">CONSULTING</a>
+<a class="cta-top" href="https://rubiworkshop.com/models" rel="noopener" target="_blank">CONSULTING</a>
 <nav aria-label="Language" class="lang">
 <a href="../" hreflang="ko" lang="ko">KO</a>
 <a href="../en/" hreflang="en" lang="en">EN</a>
@@ -643,7 +658,7 @@ footer .copy{margin-top:28px;font-size:12px}
 <div class="spec">
 <div class="reveal">
 <h3 class="sub-head">PARLEE OURAY<span>SPECIFICATION</span></h3>
-<a class="btn" href="https://rubiworkshop.com/consulting" rel="noopener" target="_blank">このモデルについて相談する →</a>
+<a class="btn" href="https://rubiworkshop.com/models" rel="noopener" target="_blank">このモデルについて相談する →</a>
 </div>
 <table class="reveal">
 <tr><th>フレーム</th><td>UDモノコックカーボンフレーム</td></tr>
@@ -769,7 +784,7 @@ footer .copy{margin-top:28px;font-size:12px}
 <div class="spec">
 <div class="reveal">
 <h3 class="sub-head">PARLEE TAOS<span>SPECIFICATION</span></h3>
-<a class="btn" href="https://rubiworkshop.com/consulting" rel="noopener" target="_blank">このモデルについて相談する →</a>
+<a class="btn" href="https://rubiworkshop.com/models" rel="noopener" target="_blank">このモデルについて相談する →</a>
 </div>
 <table class="reveal">
 <tr><th>フレーム</th><td>UDカーボン モノコックフレーム</td></tr>
@@ -870,7 +885,7 @@ footer .copy{margin-top:28px;font-size:12px}
 <div class="spec">
 <div class="reveal">
 <h3 class="sub-head">Z-ZERO GT<span>SPECIFICATION</span></h3>
-<a class="btn" href="https://rubiworkshop.com/consulting" rel="noopener" target="_blank">ビスポークについて相談する →</a>
+<a class="btn" href="https://rubiworkshop.com/models" rel="noopener" target="_blank">ビスポークについて相談する →</a>
 </div>
 <table class="reveal">
 <tr><th>設計</th><td>モダン・パフォーマンスロード ジオメトリー、チューブ・トゥ・チューブのハンドメイド構造、米国製</td></tr>
@@ -1114,11 +1129,11 @@ footer .copy{margin-top:28px;font-size:12px}
 <div class="reveal">
 <dl class="info">
 <dt>ADDRESS</dt><dd><strong>韓国ソウル特別市瑞草区新盤浦路320 ルビービル</strong><br/>ルビーワークショップ</dd>
-<dt>HOURS</dt><dd>月〜木 12:00〜18:00<br/>金〜土 12:00〜15:00</dd>
+<dt>HOURS</dt><dd>月〜金 12:00〜18:00</dd>
 <dt>CALL</dt><dd><strong>1551-5320</strong></dd>
 <dt>EMAIL</dt><dd>help@rubi.kr</dd>
 </dl>
-<a class="btn" href="https://rubiworkshop.com/consulting" rel="noopener" target="_blank">パーリーの相談を予約する →</a>
+<a class="btn" href="https://rubiworkshop.com/models" rel="noopener" target="_blank">パーリーの相談を予約する →</a>
 </div>
 </div>
 </div>
@@ -1131,7 +1146,7 @@ footer .copy{margin-top:28px;font-size:12px}
 <b>ルビーカンパニー</b> (RUBI COMPANY) ｜ <b>代表</b>：権五鉉 (Ohyun Kwon)<br/>
       韓国ソウル特別市瑞草区新盤浦路320 ルビービル<br/>
 <b>事業者登録番号</b> 685-05-00242 ｜ <b>通信販売業申告番号</b> 2016-ソウル瑞草-2062<br/>
-<b>カスタマーセンター</b> 1551-5320 (月〜木 12:00〜18:00 / 金〜土 12:00〜15:00)<br/>
+<b>カスタマーセンター</b> 1551-5320 (月〜金 12:00〜18:00、韓国時間)<br/>
 <b>メール</b> <a href="mailto:help@rubi.kr">help@rubi.kr</a></div>
 <div class="sns">
 <a href="https://instagram.com/rubi.workshop" rel="noopener" target="_blank">INSTAGRAM</a>
@@ -1189,17 +1204,6 @@ footer .copy{margin-top:28px;font-size:12px}
   }), {rootMargin:'-45% 0px -50% 0px'});
   secs.forEach(s => spy.observe(s));
 
-  /* GA4: 섹션 도달 · 상담 클릭 (gtag가 있을 때만) */
-  const seen = new Set();
-  const gaSpy = new IntersectionObserver(es => es.forEach(e => {
-    if (!e.isIntersecting || seen.has(e.target.id) || typeof gtag !== 'function') return;
-    seen.add(e.target.id); gtag('event', 'section_view', { section_name: e.target.id });
-  }), {threshold: 0.3});
-  secs.forEach(s => gaSpy.observe(s));
-  document.querySelectorAll('a[href*="rubiworkshop.com/consulting"]').forEach(a => a.addEventListener('click', () => {
-    if (typeof gtag === 'function') gtag('event', 'consulting_click', { link_location: a.closest('[data-sec]')?.id || 'header' });
-  }));
-
   /* Geometry tabs */
   document.querySelectorAll('.tabs button').forEach(b => b.onclick = () => {
     b.parentElement.querySelectorAll('button').forEach(x => { x.classList.toggle('on', x === b); document.getElementById(x.dataset.tab).hidden = x !== b; });
@@ -1228,6 +1232,46 @@ footer .copy{margin-top:28px;font-size:12px}
   lb.querySelector('.nx').onclick = e => { e.stopPropagation(); li = (li + 1) % set.length; show(); };
   lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
   addEventListener('keydown', e => { if (!lb.classList.contains('on')) return; if (e.key === 'ArrowLeft') lb.querySelector('.pv').click(); if (e.key === 'ArrowRight') lb.querySelector('.nx').click(); });
+})();
+</script>
+<script>
+/* GA4 events (shared across Rubi Company brand sites). Sends nothing while GA_ID is empty.
+   section_view, consulting_click, dealer_click, language_switch, social_click, image_view */
+(function(){
+  var lang = document.documentElement.lang || 'ko';
+  function track(name, params){ if (window.GA_ID && typeof gtag === 'function') gtag('event', name, params || {}); }
+  function where(a){
+    if (a.getAttribute('data-ga')) return a.getAttribute('data-ga');
+    if (a.closest('header')) return 'header';
+    if (a.closest('#menu, .menu')) return 'menu';
+    if (a.closest('footer')) return 'footer';
+    var s = a.closest('section[id], [data-sec][id]');
+    return s ? s.id : 'other';
+  }
+  if ('IntersectionObserver' in window) {
+    var seen = {};
+    var io = new IntersectionObserver(function(es){ es.forEach(function(e){
+      var id = e.target.id;
+      if (!e.isIntersecting || seen[id] || !window.GA_ID) return;
+      seen[id] = 1; track('section_view', { section_name: id });
+    }); }, { rootMargin: '-40% 0px -55% 0px' });
+    document.querySelectorAll('section[id], [data-sec][id]').forEach(function(s){ if (s.id !== 'top') io.observe(s); });
+  }
+  document.addEventListener('click', function(e){
+    var t = e.target, a = t.closest && t.closest('a');
+    if (a) {
+      var href = a.getAttribute('href') || '';
+      if (/rubiworkshop\.com\/models/.test(href)) return track('consulting_click', { link_location: where(a) });
+      if (/rubisupply\.com/.test(href)) return track('dealer_click', { link_location: where(a) });
+      var to = a.getAttribute('hreflang') || a.getAttribute('data-lang');
+      if (to && a.closest('.lang')) { if (to !== lang) track('language_switch', { from: lang, to: to }); return; }
+      var m = href.match(/instagram|kakao|youtube/);
+      if (m) track('social_click', { network: m[0], link_location: where(a) });
+      return;
+    }
+    var g = t.closest && t.closest('[data-gallery]');
+    if (g && t.closest('figure, .ph')) track('image_view', { gallery: g.getAttribute('data-gallery') || g.id || 'gallery' });
+  }, true);
 })();
 </script>
 </body>
