@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://parleecycles.co.kr/sitemap.xml

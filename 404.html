@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>PARLEE CYCLES KOREA</title>
+<meta name="robots" content="noindex">
+<script>
+  // 하위 주소(/ouray, /taos ...)를 원페이지 섹션으로 연결
+  // github.io 미리보기(/parlee/)와 자체 도메인(/) 모두 동작
+  var base = location.hostname.slice(-10) === 'github.io' ? '/parlee/' : '/';
+  var key = location.pathname.slice(base.length).replace(/\/$/, '').toLowerCase();
+  var alias = { 'z-zero-gt':'gt', 'zzerogt':'gt', 'custom':'bespoke', 'paint-lab':'paintlab', 'paint':'paintlab', 'about':'brand', 'contact':'showroom' };
+  var map = { brand:1, ouray:1, taos:1, gt:1, bespoke:1, paintlab:1, history:1, showroom:1 };
+  key = alias[key] || key;
+  location.replace(base + (map[key] ? '#' + key : ''));
+</script>
+<style>body{background:#000}</style>
+</head>
+<body></body>
+</html>
