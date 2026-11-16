@@ -11,8 +11,8 @@
   var parts = location.pathname.slice(base.length).replace(/\/$/, '').toLowerCase().split('/');
   var lang = (parts[0] === 'en' || parts[0] === 'ja') ? parts.shift() + '/' : '';
   var key = parts.join('/');
-  var alias = { 'z-zero-gt':'gt', 'zzerogt':'gt', 'custom':'bespoke', 'paint-lab':'paintlab', 'paint':'paintlab', 'about':'brand', 'contact':'showroom' };
-  var map = { brand:1, ouray:1, taos:1, gt:1, bespoke:1, paintlab:1, history:1, showroom:1 };
+  var alias = { 'z-zero-gt':'bespoke', 'zzerogt':'bespoke', 'gt':'bespoke', 'custom':'bespoke', 'paint-lab':'paintlab', 'paint':'paintlab', 'about':'brand', 'contact':'showroom' };
+  var map = { brand:1, ouray:1, taos:1, bespoke:1, paintlab:1, history:1, showroom:1 };
   key = alias[key] || key;
   location.replace(base + lang + (map[key] ? '#' + key : ''));
 </script>

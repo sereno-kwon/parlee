@@ -2,13 +2,13 @@
 
 parleecycles.co.kr 원페이지 정적 사이트 (GitHub Pages). tsubasabicycles.co.kr, bastioncycles.co.kr과 같은 구조입니다.
 
-- `index.html` 한국어 원페이지 (PARLEE · OURAY · TAOS · Z-ZERO GT · BESPOKE · PAINT LAB · HISTORY · SHOWROOM)
+- `index.html` 한국어 원페이지 (PARLEE · OURAY · TAOS · BESPOKE · PAINT LAB · HISTORY · SHOWROOM)
 - `en/index.html`, `ja/index.html` 영어 · 일본어 페이지 (빌드로 생성, 직접 수정하지 않음)
 - `index.src.html` 편집용 한국어 원본. 지오메트리 표는 `{{GEO_*}}` 자리에 빌드 시 채워집니다.
 - `i18n/` 번역 사전 (`ko.json` 원문 목록, `en.json` · `ja.json` 원문→번역)
 - `tools/build.py` 한국어 페이지, 번역 페이지, sitemap.xml을 한 번에 생성
-- `404.html` 하위 주소(/ouray, /taos, /z-zero-gt 등)를 섹션으로 연결
-- `images/` 섹션별 이미지 (`hero`, `brand`, `ouray`, `taos`, `gt`, `anniversary`, `bespoke`, `process`, `team`, `paint`, `history`)
+- `404.html` 하위 주소(/ouray, /taos 등)를 섹션으로 연결, 예전 /z-zero-gt 주소는 BESPOKE로 연결
+- `images/` 섹션별 이미지 (`hero`, `brand`, `ouray`, `taos`, `bespoke`, `process`, `team`, `paint`, `history`)
 - `.github/image-manifest.txt` + `fetch-images.yml` 팔리 공식 사이트(parleecycles.com) CDN 이미지 이전용 워크플로
 
 ## 이미지
