@@ -37,3 +37,10 @@ parleecycles.co.kr 원페이지 정적 사이트 (GitHub Pages). tsubasabicycles
 
 ## 운영시간
 루비워크샵 쇼룸 운영시간은 모든 브랜드 사이트에서 월~금 12:00~18:00으로 통일합니다.
+
+## Owners 페이지 (/owners)
+팔리 오너스 그룹(POG) 안내 페이지 `owners/index.html`. 한국어 전용 독립 페이지로, 빌드 대상이 아니며 직접 수정합니다.
+- 내용 기준: parleecycles.com/pages/parlee-owners-group, /crash-replacement-program, /lifetime-warranty-coverage (2026-11-18 확인)
+- 사이트맵 항목은 `tools/build.py`의 `SUBPAGES`에서 생성
+- /pog, /owners-group, /warranty, /crash-replacement 주소는 404.html이 /owners/로 연결
+- GA 이벤트: `register_click` (method: parlee_form, email, phone), `faq_open` (question), `section_view` (owners_섹션 id)

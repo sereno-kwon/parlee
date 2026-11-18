@@ -13,6 +13,8 @@
   var key = parts.join('/');
   var alias = { 'z-zero-gt':'bespoke', 'zzerogt':'bespoke', 'gt':'bespoke', 'custom':'bespoke', 'paint-lab':'paintlab', 'paint':'paintlab', 'about':'brand', 'contact':'showroom' };
   var map = { brand:1, ouray:1, taos:1, bespoke:1, paintlab:1, history:1, showroom:1 };
+  var pages = { 'owners':'owners/', 'pog':'owners/', 'owners-group':'owners/', 'parlee-owners-group':'owners/', 'warranty':'owners/', 'crash-replacement':'owners/' };
+  if (pages[key]) { location.replace(base + pages[key]); }
   key = alias[key] || key;
   location.replace(base + lang + (map[key] ? '#' + key : ''));
 </script>

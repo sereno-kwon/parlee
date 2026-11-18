@@ -17,6 +17,8 @@ sys.path.insert(0, str(ROOT / 'i18n'))
 from extract import HANGUL  # noqa: E402
 
 SITE = 'https://parleecycles.co.kr/'
+# (경로, 대표 이미지, 수정일) 원페이지 밖의 독립 페이지
+SUBPAGES = [('owners/', 'images/owners/og.jpg', '2026-11-18')]
 
 # ---------------------------------------------------------------- geometry
 def table(sizes, rows):
@@ -143,7 +145,7 @@ def translate(ko_html, lang):
 
     out = str(soup)
     # 하위 폴더에서 이미지 경로 보정
-    out = out.replace('src="images/', 'src="../images/').replace('url(images/', 'url(../images/').replace('href="images/', 'href="../images/')
+    out = out.replace('src="images/', 'src="../images/').replace('url(images/', 'url(../images/').replace('href="images/', 'href="../images/').replace('href="owners/"', 'href="../owners/"')
     left = [k for k in missing]
     return out, left
 
@@ -157,6 +159,10 @@ def sitemap(html):
         if not p:
             u += ''.join(f'\n    <image:image><image:loc>{SITE}{i}</image:loc></image:image>' for i in imgs)
         urls.append(u + '\n  </url>')
+    # 독립 서브 페이지 (한국어 전용)
+    for sub, img, mod in SUBPAGES:
+        urls.append(f'  <url>\n    <loc>{SITE}{sub}</loc>\n    <lastmod>{mod}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>'
+                    f'\n    <image:image><image:loc>{SITE}{img}</image:loc></image:image>\n  </url>')
     x = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
          'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
          + '\n'.join(urls) + '\n</urlset>\n')
